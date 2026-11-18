@@ -5,7 +5,7 @@ pipeline {
         stage('Compile') {
             steps {
                 echo 'Compiling...'
-                sh 'javac HelloWorld.java'
+                bat 'javac HelloWorld.java'
             }
         }
         stage('Run') {
